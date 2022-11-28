@@ -2,7 +2,7 @@ import sys
 input = sys.stdin.readline
 
 K = int(input())
-arr = [[0 for _ in range(101)]for _ in range(101)]
+arr = [[0 for _ in range(101)]for _ in range(101)] #2차원 배열 만들기
 
 for _ in range(K):
     A,B = map(int,input().split())
